@@ -53,6 +53,39 @@ conda activate nlp_course_2026
 conda deactivate
 ```
 
+## List Available Environments
+
+To see all Conda environments installed on your machine, run:
+
+```bash
+conda env list
+```
+
+or:
+
+```bash
+conda info --envs
+```
+
+The currently active environment is marked with `*`.
+
+## Why It Is Better to Use a Separate Environment
+
+Using a separate environment for this course is a good practice because:
+
+- It avoids package conflicts between different projects.
+- It keeps course dependencies isolated from your system-wide tools.
+- It makes your setup reproducible for classmates, instructors, and future you.
+- It is easier to debug when all required packages are in one dedicated environment.
+
+## What Is the `base` Environment?
+
+`base` is the default Conda environment created when Anaconda is installed.
+
+- It contains Conda itself and core tools.
+- You can use it, but it is usually better to keep it clean.
+- For projects, create and activate a dedicated environment like `nlp_course_2026`.
+
 ## Understanding the Main YAML Sections
 
 The `nlp.yaml` environment file is organized into a few main sections. Each section has a specific role:
