@@ -1,0 +1,21 @@
+name: nlp_course_2026
+channels:
+  - defaults
+dependencies:
+  - python
+  - jupyterlab_widgets=3.0.15
+  - pip
+  - spacy
+  - numpy
+  - keras
+  - matplotlib
+  - pandas
+  - nltk
+  - scikit-learn
+  - jupyter
+  - PyPDF2
+  - pypdf
+  - bs4
+  - pip:
+      - python-docx
+      - textblob
