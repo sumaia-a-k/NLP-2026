@@ -1,0 +1,2 @@
+# Ignore student notebook solutions in answers folder
+answers/**/*.ipynb
