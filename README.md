@@ -2,6 +2,16 @@
 
 This guide explains how to set up the course environment for the Natural Language Processing course.
 
+## What Is Conda?
+
+Conda is a package and environment manager.
+
+- It installs Python packages and tools.
+- It creates isolated environments for different projects.
+- It helps prevent version conflicts between projects on the same computer.
+
+In this course, Conda is used to create a dedicated environment from `nlp.yaml`.
+
 ## Recommended Tools
 
 You can use any IDE or code editor. However using Anaconda is recommended
