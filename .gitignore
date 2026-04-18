@@ -1,2 +1,5 @@
 # Ignore student notebook solutions in answers folder
 answers/**/*.ipynb
+
+# Ignore binary model artifacts (e.g., Word2Vec/FastText saved models)
+*.bin
