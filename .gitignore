@@ -3,3 +3,6 @@ answers/**/*.ipynb
 
 # Ignore binary model artifacts (e.g., Word2Vec/FastText saved models)
 *.bin
+
+# Ignore models
+*/**/models/*
